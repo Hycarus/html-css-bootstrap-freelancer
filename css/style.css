@@ -1,8 +1,9 @@
-.bg-white.rounded-pill{
-    width: 15%;
+.bg-white.rounded-pill,
+.bg-dark.rounded-pill{
+    width: 100px;
     height: 5px;
     margin: 0 10px;
 }
-img{
+#hero img{
     width: 50%;
 }
