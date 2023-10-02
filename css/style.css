@@ -10,7 +10,7 @@
     line-height: 40px;
 }
 
-.my-image-container:hover::after{
+.my-image-container:after{
     content: '+';
     display: flex;
     align-items: center;
@@ -25,6 +25,11 @@
     font-size: 9em;
     font-weight: bold;
     border-radius: var(--bs-border-radius-lg);
+    opacity: 0;
+    transition: all 0.3s;
+}
+:hover::after{
+    opacity: 1;
 }
 .my-form-control{
     border: 0;
