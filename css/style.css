@@ -9,3 +9,19 @@
     height: 40px;
     line-height: 40px;
 }
+
+.my-image-container:hover::after{
+    content: '+';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #20c9967b;
+    color: white;
+    font-size: 5em;
+    font-weight: bold;
+}
