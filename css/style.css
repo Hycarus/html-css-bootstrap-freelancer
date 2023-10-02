@@ -22,10 +22,10 @@
     right: 0;
     background-color: #20c9967b;
     color: white;
-    font-size: 5em;
+    font-size: 9em;
     font-weight: bold;
+    border-radius: var(--bs-border-radius-lg);
 }
-
 .my-form-control{
     border-bottom: 1px solid rgba(0, 0, 0, 0.284);
     border-top: none;
