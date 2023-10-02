@@ -25,3 +25,11 @@
     font-size: 5em;
     font-weight: bold;
 }
+
+.my-form-control{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.284);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-radius: 0%;
+}
